@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header-box{
+    background-color: lightcoral;
+    text-align: center;
+    .header-title{
+        color: white;
+        padding: 1rem 0;
+
+    }
+}
+.card{
+    .card-container{
+        width: 90%;
+        display: flex;
+        margin: 2rem auto;
+        justify-content: space-between;
+        .img-box{
+            width: 35%;
+            // height: 100%;
+            img{
+                width: 100%;
+                height: 100%;
+                border-radius: 10px;
+                object-fit: cover;
+            }
+        }
+        .card-contxt{
+            width: 55%;
+
+            .location{
+                margin: 1rem 0 0 0;
+            }
+            .title{
+                font-weight: bold;
+                font-size: 45px;
+            }
+            .sdate-edate{
+                margin: 1rem 0;
+                font-weight: bold;
+            }
+            .txt{
+                margin: 0 0 1rem 0;
+            }
+        }
+    }
+}
